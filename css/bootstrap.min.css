@@ -19,7 +19,7 @@
  }
 
 .bg {
-  background: url(/home/will/school/english/site/bg.png) no-repeat center center;
+  background: url(../bg.png) no-repeat center center;
   background-size: cover;
   position: fixed;
   width: 100%;
