@@ -6,7 +6,7 @@
 	<meta http-equiv = "X-UA-Compatible" content = "IE = edge">
 	<meta name = "viewport" content = "width = device-width, initial-scale = 1">
 
-	<title>Media Project</title>
+	<title>Google Search Engine</title>
 
 	<!-- Bootstrap -->
 	<link href = "css/bootstrap.min.css" rel = "stylesheet">
@@ -18,11 +18,10 @@
 			<script src = "https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 			<script src = "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 			<![endif]-->
-			
 		</head>
 
 		<body>
-			<div class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar navbar-default navbar-fixed-top navbar-transparent">
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -48,24 +47,65 @@
 				</div>
 			</div>
 
-			<div class="container">
-
-				<div class="page-header" id="banner">
-					<div class="row">
-						<div class="col-lg-8 col-md-7 col-sm-6">
-							<h1>Media Project</h1>
-							<p class="lead">Google</p>
-						</div>
-					</div>
+			<div class="jumbotron jumbotron-fluid">
+				<div class="container">
+					<h1 class="display-3 jumbotext">Google Search Engine</h1>
 				</div>
+			</div>
 
+			<div class="bg"></div>
+
+			<div class="wide">
+				<div class="container">
+
+
+					<p>Founded by Larry Page and Sergey Brin</p>
+					<p>Launched September 4, 1998</p>	
+					<p>1.17 billion users per month</p>	
+
+					<h2>Did you know?</h2>
+					<p>The search engine was originally named Backrub</p>
+					<p>Google Inc.’s first office was a garage</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+
+
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+					<p>The first Google doodle was inspired Burning Man, when the entire staff skipped work to attend the event</p>
+
+				</div>
 			</div>
 			
-			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 			<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+			<script type='text/javascript'>
+				var jumboHeight = $('.bg').height();
+				function parallax(){
+					var scrolled = $(window).scrollTop();
+					$('.bg').css('height', (jumboHeight-scrolled) + 'px');
+				}
+				$(window).scroll(function(e){
+					parallax();
+				});
+			</script>
+
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 			
 			<!-- Include all compiled plugins (below), or include individual files as needed -->
 			<script src = "js/bootstrap.min.js"></script>
+
 			
 		</body>
 		</html>
