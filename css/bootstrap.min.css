@@ -62,4 +62,6 @@ iframe {
 img {
     display:block;
     margin:auto;
+    max-height: 80%;
+    max-width: 80%;
 }
